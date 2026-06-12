@@ -46,9 +46,6 @@ INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1pplx.fd
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1pplx.fd
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplr9t.tfm
-INPUT ./cv.aux
-INPUT ./cv.aux
-INPUT cv.aux
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplr9t.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplb9t.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplb9t.tfm

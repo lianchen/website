@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.5)  3 JUN 2026 13:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.5)  11 JUN 2026 17:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -112,7 +112,8 @@ Package: courier 2020/03/25 PSNFSS-v9.3 (WaS)
 LaTeX Font Info:    Trying to load font information for OT1+pplx on input line 35.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1pplx.fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
-) (./cv.aux)
+)
+No file cv.aux.
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
@@ -127,7 +128,6 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -185,12 +185,23 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ) [1
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-Overfull \hbox (0.63966pt too wide) in paragraph at lines 176--177
+/Users/chenlian/Documents/GitHub/website/CV/cv.tex:167: Misplaced alignment tab character &.
+l.167 ... and Propagation Mechanism; Forecasting &
+                                                   Empirical Methods), North...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Overfull \hbox (0.63966pt too wide) in paragraph at lines 167--168
 []\OT1/pplx/m/n/10 Berkeley-Stanford Macroe-co-nomics Con-fer-ence, Bravo Cen-ter Work-shop on Be-hav-ioral Eco-nomics,
  []
 
 [2]
-Overfull \hbox (2.07907pt too wide) in paragraph at lines 191--192
+Overfull \hbox (2.07907pt too wide) in paragraph at lines 182--183
 []\OT1/pplx/m/n/10 AFA (dis-cus-sant), Be-hav-ioral Eco-nomics An-nual Meet-ing, Bi-en-nial Con-sumer Fi-nance and Macroe-
  []
 
@@ -201,15 +212,15 @@ L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2083 strings out of 474116
- 37768 string characters out of 5743683
+ 2080 strings out of 474116
+ 37735 string characters out of 5743683
  1938187 words of memory out of 5000000
- 24438 multiletter control sequences out of 15000+600000
+ 24437 multiletter control sequences out of 15000+600000
  570584 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,5n,93p,885b,244s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on cv.pdf (5 pages, 89112 bytes).
+Output written on cv.pdf (5 pages, 89132 bytes).
 PDF statistics:
  41 PDF objects out of 1000 (max. 8388607)
  25 compressed objects within 1 object stream
