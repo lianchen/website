@@ -2,7 +2,7 @@ PWD /Users/chenlian/Documents/GitHub/website/CV
 INPUT /usr/local/texlive/2024/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/chenlian/Documents/GitHub/website/CV/cv.tex
+INPUT cv.tex
 OUTPUT cv.log
 INPUT ./res.cls
 INPUT res.cls
@@ -46,6 +46,9 @@ INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1pplx.fd
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1pplx.fd
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplr9t.tfm
+INPUT ./cv.aux
+INPUT ./cv.aux
+INPUT cv.aux
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplr9t.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplb9t.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplb9t.tfm
