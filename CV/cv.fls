@@ -2,7 +2,7 @@ PWD /Users/chenlian/Documents/GitHub/website/CV
 INPUT /usr/local/texlive/2024/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT cv.tex
+INPUT /Users/chenlian/Documents/GitHub/website/CV/cv.tex
 OUTPUT cv.log
 INPUT ./res.cls
 INPUT res.cls
