@@ -1,4 +1,15 @@
 (() => {
+  const viewLinks = [...document.querySelectorAll('[data-view]')];
+  function updateCurrentView() {
+    const currentView = ['#teaching', '#teaching-main'].includes(location.hash) ? 'teaching' : 'research';
+    viewLinks.forEach(link => {
+      if (link.dataset.view === currentView) link.setAttribute('aria-current', 'page');
+      else link.removeAttribute('aria-current');
+    });
+  }
+  window.addEventListener('hashchange', updateCurrentView);
+  updateCurrentView();
+
   const filterPanel = document.querySelector('.topic-filters');
   const buttons = [...document.querySelectorAll('[data-filter]')];
   const publicationPanel = document.querySelector('.publication-filters');

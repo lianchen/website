@@ -122,16 +122,20 @@ def render(data):
   <script src="site.js" defer></script>
 </head>
 <body id="top">
-  <a class="skip-link" href="#main">Skip to main content</a>
+  <div class="view-anchor" id="research" aria-hidden="true"></div>
+  <div class="view-anchor" id="teaching" aria-hidden="true"></div>
+  <a class="skip-link research-only" href="#main">Skip to main content</a>
+  <a class="skip-link teaching-only" href="#teaching-main">Skip to main content</a>
   <header class="site-header">
     <div class="wrap header-inner">
       <a class="wordmark" href="#top">Chen <span class="surname">Lian</span></a>
       <nav class="site-nav" aria-label="Main navigation">
-        <a href="#about">About</a><a href="#research">Research</a><a href="#teaching">Teaching</a>{anchor(profile['cv_url'], 'CV')}
+        <a href="#research" data-view="research">Research</a><a href="#teaching" data-view="teaching">Teaching</a>{anchor(profile['cv_url'], 'CV')}
       </nav>
     </div>
   </header>
   <main class="wrap" id="main">
+    <div id="teaching-main"></div>
     <section class="profile" id="about" aria-labelledby="profile-title">
       <img class="portrait" src="{escape(profile['photo_path'])}" width="236" height="295" alt="Chen Lian" fetchpriority="high">
       <div>
@@ -145,25 +149,25 @@ def render(data):
         <p class="contact"><span>{anchor('mailto:' + profile['email'], profile['email'])}</span><span>{escape(profile['office'])}</span></p>
       </div>
     </section>
-    <section id="research" aria-labelledby="research-title">
+    <section class="research-only" id="research-papers" aria-labelledby="research-title">
       <h2 class="section-heading" id="research-title">Research</h2>
       <div class="research-tools">
         <nav class="jump-links" aria-label="Research sections"><strong>Jump to:</strong>{jump}</nav>
         <fieldset class="topic-filters" hidden>
-          <legend>Filter by topic:</legend>
+          <legend class="sr-only">Filter by topic</legend>
           <div class="filter-buttons">{filters}</div>
           <p class="sr-only" id="filter-status" role="status" aria-live="polite" aria-atomic="true"></p>
         </fieldset>
       </div>
       {''.join(sections)}
     </section>
-    <section class="teaching" id="teaching" aria-labelledby="teaching-title">
+    <section class="teaching teaching-only" aria-labelledby="teaching-title">
       <h2 class="section-heading" id="teaching-title">Teaching</h2>
       <ul class="teaching-list">{teaching}</ul>
     </section>
   </main>
   <footer class="site-footer"><div class="wrap footer-inner">
-    <p>Chen <span class="surname">Lian</span> · Department of Economics · UC Berkeley</p><a href="#top">Back to top</a>
+    <p>Chen <span class="surname">Lian</span> · Department of Economics · UC Berkeley</p><a class="research-only" href="#research">Back to top</a><a class="teaching-only" href="#teaching">Back to top</a>
   </div></footer>
 </body>
 </html>

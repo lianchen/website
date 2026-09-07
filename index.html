@@ -12,16 +12,20 @@
   <script src="site.js" defer></script>
 </head>
 <body id="top">
-  <a class="skip-link" href="#main">Skip to main content</a>
+  <div class="view-anchor" id="research" aria-hidden="true"></div>
+  <div class="view-anchor" id="teaching" aria-hidden="true"></div>
+  <a class="skip-link research-only" href="#main">Skip to main content</a>
+  <a class="skip-link teaching-only" href="#teaching-main">Skip to main content</a>
   <header class="site-header">
     <div class="wrap header-inner">
       <a class="wordmark" href="#top">Chen <span class="surname">Lian</span></a>
       <nav class="site-nav" aria-label="Main navigation">
-        <a href="#about">About</a><a href="#research">Research</a><a href="#teaching">Teaching</a><a href="https://lianchen.github.io/website/CV/cv.pdf">CV</a>
+        <a href="#research" data-view="research">Research</a><a href="#teaching" data-view="teaching">Teaching</a><a href="https://lianchen.github.io/website/CV/cv.pdf">CV</a>
       </nav>
     </div>
   </header>
   <main class="wrap" id="main">
+    <div id="teaching-main"></div>
     <section class="profile" id="about" aria-labelledby="profile-title">
       <img class="portrait" src="assets/chen-lian.jpg" width="236" height="295" alt="Chen Lian" fetchpriority="high">
       <div>
@@ -35,12 +39,12 @@
         <p class="contact"><span><a href="mailto:chen_lian@berkeley.edu">chen_lian@berkeley.edu</a></span><span>Evans Hall, #675</span></p>
       </div>
     </section>
-    <section id="research" aria-labelledby="research-title">
+    <section class="research-only" id="research-papers" aria-labelledby="research-title">
       <h2 class="section-heading" id="research-title">Research</h2>
       <div class="research-tools">
         <nav class="jump-links" aria-label="Research sections"><strong>Jump to:</strong><span class="jump-item"><a href="#working-papers">Working Papers</a></span><span class="jump-item"><a href="#under-revision">Under Revision</a></span><span class="jump-item"><a href="#publications">Publications</a></span></nav>
         <fieldset class="topic-filters" hidden>
-          <legend>Filter by topic:</legend>
+          <legend class="sr-only">Filter by topic</legend>
           <div class="filter-buttons"><button type="button" class="filter-button" data-filter="all" aria-pressed="true">All</button><button type="button" class="filter-button" data-filter="macro-policy" aria-pressed="false" title="Business Cycles and Macroeconomic Policies">Business cycles &amp; policy</button><button type="button" class="filter-button" data-filter="behavioral" aria-pressed="false" title="Macroeconomics: Bounded Rationality and Incomplete Information; Behavioral Economics">Behavioral macro &amp; economics</button><button type="button" class="filter-button" data-filter="macro-finance" aria-pressed="false" title="Macro-Finance">Macro-finance</button><button type="button" class="filter-button" data-filter="ml-ai" aria-pressed="false" title="Machine Learning and Artificial Intelligence in Macroeconomics">AI &amp; machine learning</button></div>
           <p class="sr-only" id="filter-status" role="status" aria-live="polite" aria-atomic="true"></p>
         </fieldset>
@@ -144,7 +148,7 @@
 </li></ul>
 </section>
     </section>
-    <section class="teaching" id="teaching" aria-labelledby="teaching-title">
+    <section class="teaching teaching-only" aria-labelledby="teaching-title">
       <h2 class="section-heading" id="teaching-title">Teaching</h2>
       <ul class="teaching-list"><li>
   <p class="course-terms">Spring 2023, 2025 &amp; 2026</p>
@@ -165,7 +169,7 @@
     </section>
   </main>
   <footer class="site-footer"><div class="wrap footer-inner">
-    <p>Chen <span class="surname">Lian</span> · Department of Economics · UC Berkeley</p><a href="#top">Back to top</a>
+    <p>Chen <span class="surname">Lian</span> · Department of Economics · UC Berkeley</p><a class="research-only" href="#research">Back to top</a><a class="teaching-only" href="#teaching">Back to top</a>
   </div></footer>
 </body>
 </html>
