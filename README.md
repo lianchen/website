@@ -14,6 +14,8 @@ Research is the default navigation tab. Both tabs share the entire profile: phot
 
 Run `python3 build.py` to regenerate `index.html` and verify that linked documents exist. Both the content data and generated page should be included when committing an update. The page contains all content without JavaScript; the small script adds topic filtering.
 
+The generated page versions its CSS and JavaScript URLs using each file's content hash so browsers load updated assets after publishing. Rebuild after editing either file.
+
 Preview with `python3 -m http.server 8000 --bind 127.0.0.1`, then open `http://127.0.0.1:8000/`.
 
 ## Publishing
