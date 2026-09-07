@@ -1,0 +1,21 @@
+# Website preferences
+
+- Build Chen Lian's academic website for `https://lianchen.github.io/` to replace `https://sites.google.com/view/chenlian/home`.
+- Use the current Google Site as the source for the biography, research listings, teaching, and document links unless the user supplies updates.
+- Design references: `https://hollina.github.io/make-a-job-market-website.html`, `https://www.jhazell.co.uk/`, and `https://jguerreiro.com/`.
+- Do not include a News section.
+- Mobile compatibility is required. Verify narrow phone, tablet, and desktop layouts, long paper titles, navigation, and touch controls before delivery.
+- Preserve existing public PDF paths under `https://lianchen.github.io/website/`; these are already linked from the current website.
+- This repository currently publishes at `https://lianchen.github.io/website/`. The requested root homepage requires the `lianchen.github.io` repository. Do not rename or move this PDF repository as part of the homepage migration without a specific user request.
+- The root homepage repository is `lianchen/lianchen.github.io`, published by GitHub Pages from `main` at `/`. Maintain the editable source in this `website` repository, then export and push the public assets to the homepage repository when publishing updates.
+- Use a compact Guerreiro-inspired layout: top navigation, current photo and short biography, white background, dark serif text, and restrained blue accents.
+- Keep the position, research fields, and MIT Ph.D. statement together in one biography paragraph. Let the biography use the full available width beside the photo without a separate width cap. Place the research-statement sentence alongside CV and Google Scholar in one naturally wrapping inline row.
+- Research navigation should follow Jonathon Hazell's site: a “Jump to” row linking to Working Papers, Under Revision, and Publications, followed by pill-shaped single-select topic filters. Filters apply across all three groups; both rows wrap on small screens.
+- Combine Behavioral macro and Behavioral economics into one “Behavioral macro & economics” topic containing the union of their papers, without duplicates. Do not display paper-count summaries. Hide groups with no papers matching the selected topic, including their headings and “Jump to” links.
+- Under Publications, show “All,” “Refereed,” and “Survey & conference” pill buttons without an additional visible label only when the topic filter is All. The two handbook chapters and the NBER Macroeconomics Annual paper belong to Survey & conference; journal articles belong to Refereed. Selecting a specific topic hides the publication-type buttons and resets publication type to All, showing all publications matching that topic.
+- Use sentence case for filter labels, including words after an ampersand; preserve acronyms such as AI.
+- Keep each paper compact: title, coauthors, and supplementary links flow inline, followed by publication status/journal on a separate line. Allow natural wrapping on narrow screens. For the Dampening General Equilibrium survey, link the older paper directly inside the explanatory note rather than repeating the link separately.
+- Use the available desktop width for the profile, research, and teaching with comfortable side margins, without a fixed maximum width that forces early wrapping on wide screens.
+- Group teaching by course, combining semesters into a compact date line above the course title. Use the same normal-weight serif type and title size as the research entries, with smaller muted dates. Keep syllabus links inline beside the course title and identify their year.
+- The NBER Behavioral Macroeconomics Research Boot Camp includes Spring 2022, 2024, and 2026. Its displayed syllabus should be the supplied `Syllabus_bootcamp_2026.pdf`; keep older PDF files available at their existing paths.
+- Keep this a static GitHub Pages website. Generate the public HTML from the content data, with links and all papers readable without JavaScript; JavaScript enhances topic filtering.

@@ -1,0 +1,518 @@
+{
+  "profile": {
+    "name": "Chen Lian",
+    "role": "Assistant Professor of Economics",
+    "institution": "UC Berkeley",
+    "bio_paragraphs": [
+      {
+        "text": "I am an assistant professor in UC Berkeley's Department of Economics. I work on macroeconomics, behavioral economics, and finance. I received my Ph.D. in economics from MIT.",
+        "links": [
+          {
+            "text": "Department of Economics",
+            "url": "https://www.econ.berkeley.edu/profile/1706385",
+            "start": 45,
+            "end": 68
+          }
+        ]
+      }
+    ],
+    "email": "chen_lian@berkeley.edu",
+    "office": "Evans Hall, #675",
+    "cv_url": "https://lianchen.github.io/website/CV/cv.pdf",
+    "scholar_url": "https://scholar.google.com/citations?user=z3yCoXYAAAAJ&hl=en",
+    "research_statement_url": "https://lianchen.github.io/website/research_statement.pdf",
+    "photo_url": "https://lh3.googleusercontent.com/sitesv/AG8ngQXiQg3jskZTraSXwAn3a3VrO98zb0aFWzhPHp5Z6zIeYZK4eEKXRwtcMsH3IiskdUDt9zgBgjHYX7pyaACjvLit6ExZVYa9EPQy2lwvgKHvYjOHgr695dD3l3XpaPNRENvQrzk7BoKweqYfQpuWN68wYATRFq4XMDJXSvaV9RuSbwVlzq6aOVV6eLTWpODELYwzk3hUVMTuwXp6qel3gqvA8OZzTTiHut77yC4T=w1280",
+    "photo_path": "assets/chen-lian.jpg",
+    "research_statement_date": "June 2026"
+  },
+  "topics": [
+    {
+      "id": "macro-policy",
+      "label": "Business cycles & policy",
+      "source_label": "Business Cycles and Macroeconomic Policies"
+    },
+    {
+      "id": "behavioral",
+      "label": "Behavioral macro & economics",
+      "source_label": "Macroeconomics: Bounded Rationality and Incomplete Information; Behavioral Economics"
+    },
+    {
+      "id": "macro-finance",
+      "label": "Macro-finance",
+      "source_label": "Macro-Finance"
+    },
+    {
+      "id": "ml-ai",
+      "label": "AI & machine learning",
+      "source_label": "Machine Learning and Artificial Intelligence in Macroeconomics"
+    }
+  ],
+  "papers": [
+    {
+      "id": "importing-aggregate-demand",
+      "title": "Importing Aggregate Demand",
+      "url": "https://lianchen.github.io/website/hank_intl.pdf",
+      "coauthors": "Dmitry Mukhin and Christian Wolf",
+      "status": "",
+      "group": "working",
+      "badge": "NEW",
+      "topics": [
+        "macro-policy"
+      ],
+      "links": []
+    },
+    {
+      "id": "sophisticated-borrowing-constraints-and-macroeconomic-dynamics",
+      "title": "Sophisticated Borrowing Constraints and Macroeconomic Dynamics",
+      "url": "https://lianchen.github.io/website/draft_soft_ebc.pdf",
+      "coauthors": "Mahdi Ebsim, Yueran Ma, Pablo Ottonello, and Diego Perez",
+      "status": "",
+      "group": "working",
+      "badge": "NEW",
+      "topics": [
+        "macro-policy",
+        "macro-finance"
+      ],
+      "links": []
+    },
+    {
+      "id": "monetary-fiscal-interactions-a-reappraisal",
+      "title": "Monetary-Fiscal Interactions: A Reappraisal",
+      "url": "https://lianchen.github.io/website/ftpl_game.pdf",
+      "coauthors": "George-Marios Angeletos, Christian Wolf, and Dalton Zhang",
+      "status": "",
+      "group": "working",
+      "badge": "NEW",
+      "topics": [
+        "macro-policy"
+      ],
+      "links": []
+    },
+    {
+      "id": "deficits-and-inflation-hank-meets-ftpl",
+      "title": "Deficits and Inflation: HANK meets FTPL",
+      "url": "https://lianchen.github.io/website/deficit_inflation.pdf",
+      "coauthors": "George-Marios Angeletos and Christian Wolf",
+      "status": "",
+      "group": "working",
+      "badge": "UPDATE",
+      "topics": [
+        "macro-policy"
+      ],
+      "links": []
+    },
+    {
+      "id": "forecasting-inflation-with-microdata-an-adaptive-machine-learning-approach",
+      "title": "Forecasting Inflation with Microdata: An Adaptive Machine Learning Approach",
+      "url": "https://lianchen.github.io/website/Inflation_Forecasting.pdf",
+      "coauthors": "Catherine Chen, Chen Gao, Jonathon Hazell, and Lihua Lei",
+      "status": "",
+      "group": "working",
+      "badge": "Preliminary",
+      "topics": [
+        "ml-ai"
+      ],
+      "links": []
+    },
+    {
+      "id": "the-macroeconomic-effect-of-ai-sizing-the-software-engineering-channel",
+      "title": "The Macroeconomic Effect of AI: Sizing the Software Engineering Channel",
+      "url": "https://lianchen.github.io/website/AI_Software_Draft.pdf",
+      "coauthors": "Alex Blumenfeld, Jonathon Hazell, and Andreas Schaab",
+      "status": "",
+      "group": "working",
+      "badge": "Preliminary",
+      "topics": [
+        "ml-ai"
+      ],
+      "links": []
+    },
+    {
+      "id": "fiscal-inaction-as-monetary-support",
+      "title": "Fiscal Inaction as Monetary Support",
+      "url": "https://lianchen.github.io/website/mpfp.pdf",
+      "coauthors": "George-Marios Angeletos and Christian Wolf",
+      "status": "R&R at Econometrica",
+      "group": "revision",
+      "badge": "",
+      "topics": [
+        "macro-policy"
+      ],
+      "links": []
+    },
+    {
+      "id": "borrowing-constraints-markups-and-misallocation",
+      "title": "Borrowing Constraints, Markups, and Misallocation",
+      "url": "https://lianchen.github.io/website/draft_markup.pdf",
+      "coauthors": "Huiyu Li, Yueran Ma and Emily Martell",
+      "status": "R&R at Review of Economic Studies",
+      "group": "revision",
+      "badge": "",
+      "topics": [
+        "macro-finance"
+      ],
+      "links": []
+    },
+    {
+      "id": "beliefs-about-the-economy-are-excessively-sensitive-to-household-level-shocks-evidence-from-linked-survey-and-administrative-data",
+      "title": "Beliefs about the Economy are Excessively Sensitive to Household-level Shocks: Evidence from Linked Survey and Administrative Data",
+      "url": "https://lianchen.github.io/website/paper_DK_overreaction.pdf",
+      "coauthors": "Dmitry Taubinsky, Luigi Butera and Matteo Saccarola",
+      "status": "Forthcoming, Quarterly Journal of Economics",
+      "group": "published",
+      "badge": "FINAL",
+      "topics": [
+        "behavioral"
+      ],
+      "links": [],
+      "publication_type": "refereed"
+    },
+    {
+      "id": "why-do-workers-dislike-inflation-wage-erosion-and-conflict-costs",
+      "title": "Why do Workers Dislike Inflation? Wage Erosion and Conflict Costs",
+      "url": "https://lianchen.github.io/website/draft_conflicts.pdf",
+      "coauthors": "Joao Guerreiro, Jonathon Hazell and Christina Patterson",
+      "status": "Forthcoming, Econometrica",
+      "group": "published",
+      "badge": "FINAL",
+      "topics": [
+        "macro-policy"
+      ],
+      "links": [
+        {
+          "label": "Supplementary Appendix",
+          "url": "https://lianchen.github.io/website/appendix_conflict.pdf"
+        },
+        {
+          "label": "Slides",
+          "url": "https://lianchen.github.io/website/slides_conflict_main.pdf"
+        }
+      ],
+      "publication_type": "refereed"
+    },
+    {
+      "id": "the-economics-of-financial-stress",
+      "title": "The Economics of Financial Stress",
+      "url": "https://lianchen.github.io/website/draft_stress.pdf",
+      "coauthors": "Dmitriy Sergeyev and Yuriy Gorodnichenko",
+      "status": "October 2025, Review of Economic Studies",
+      "group": "published",
+      "badge": "",
+      "topics": [
+        "behavioral",
+        "macro-finance"
+      ],
+      "links": [
+        {
+          "label": "Slides",
+          "url": "https://lianchen.github.io/website/slides_stress.pdf"
+        }
+      ],
+      "publication_type": "refereed"
+    },
+    {
+      "id": "bankruptcy-resolution-and-credit-cycles",
+      "title": "Bankruptcy Resolution and Credit Cycles",
+      "url": "https://lianchen.github.io/website/MacroAnnual.pdf",
+      "coauthors": "Martin Kornejew, Yueran Ma, Pablo Ottonello, and Diego Perez",
+      "status": "NBER Macroeconomics Annual 2024",
+      "group": "published",
+      "badge": "NEW",
+      "topics": [
+        "macro-finance"
+      ],
+      "links": [
+        {
+          "label": "Slides",
+          "url": "https://lianchen.github.io/website/macroannual_slides.pdf"
+        }
+      ],
+      "publication_type": "survey-conference"
+    },
+    {
+      "id": "can-deficits-finance-themselves",
+      "title": "Can Deficits Finance Themselves?",
+      "url": "https://lianchen.github.io/website/deficit_finance.pdf",
+      "coauthors": "George-Marios Angeletos and Christian Wolf",
+      "status": "September 2024, Econometrica",
+      "group": "published",
+      "badge": "",
+      "topics": [
+        "macro-policy"
+      ],
+      "links": [
+        {
+          "label": "Slides",
+          "url": "https://lianchen.github.io/website/deficit_finance_slides.pdf"
+        },
+        {
+          "label": "Additional Materials",
+          "url": "https://lianchen.github.io/website/deficit_finance_supplement.pdf"
+        }
+      ],
+      "publication_type": "refereed"
+    },
+    {
+      "id": "mistakes-in-future-consumption-high-mpcs-now",
+      "title": "Mistakes in Future Consumption, High MPCs Now",
+      "url": "https://lianchen.github.io/website/draft_dnt.pdf",
+      "coauthors": "",
+      "status": "December 2023, American Economic Review: Insights",
+      "group": "published",
+      "badge": "",
+      "topics": [
+        "behavioral"
+      ],
+      "links": [
+        {
+          "label": "NBER version",
+          "url": "https://www.nber.org/papers/w29517"
+        },
+        {
+          "label": "Slides",
+          "url": "https://lianchen.github.io/website/slides_v1_dnt.pdf"
+        }
+      ],
+      "publication_type": "refereed"
+    },
+    {
+      "id": "determinacy-without-the-taylor-principle",
+      "title": "Determinacy without the Taylor Principle",
+      "url": "https://lianchen.github.io/website/taylor_draft.pdf",
+      "coauthors": "George-Marios Angeletos",
+      "status": "August 2023, Journal of Political Economy",
+      "group": "published",
+      "badge": "",
+      "topics": [
+        "macro-policy",
+        "behavioral"
+      ],
+      "links": [
+        {
+          "label": "Slides",
+          "url": "https://lianchen.github.io/website/slides_taylor.pdf"
+        }
+      ],
+      "publication_type": "refereed"
+    },
+    {
+      "id": "dampening-general-equilibrium-incomplete-information-and-bounded-rationality",
+      "title": "Dampening General Equilibrium: Incomplete Information and Bounded Rationality",
+      "url": "https://lianchen.github.io/website/handbook-GE-NBER.pdf",
+      "coauthors": "George-Marios Angeletos",
+      "status": "January 2023, Handbook of Economic Expectations",
+      "group": "published",
+      "badge": "SURVEY",
+      "topics": [
+        "behavioral"
+      ],
+      "links": [],
+      "note": {
+        "text": "This subsumes an older version of Dampening General Equilibrium.",
+        "links": [
+          {
+            "text": "Dampening General Equilibrium",
+            "url": "https://lianchen.github.io/website/dampening-2019.pdf",
+            "start": 34,
+            "end": 63
+          }
+        ]
+      },
+      "publication_type": "survey-conference"
+    },
+    {
+      "id": "confidence-and-the-propagation-of-demand-shocks",
+      "title": "Confidence and the Propagation of Demand Shocks",
+      "url": "https://lianchen.github.io/website/AD_final.pdf",
+      "coauthors": "George-Marios Angeletos",
+      "status": "May 2022, Review of Economic Studies",
+      "group": "published",
+      "badge": "",
+      "topics": [
+        "macro-policy",
+        "behavioral"
+      ],
+      "links": [
+        {
+          "label": "Slides",
+          "url": "https://lianchen.github.io/website/AD_slides_SI.pdf"
+        },
+        {
+          "label": "Online Appendix",
+          "url": "https://lianchen.github.io/website/AD_appendix.pdf"
+        }
+      ],
+      "publication_type": "refereed"
+    },
+    {
+      "id": "a-theory-of-narrow-thinking",
+      "title": "A Theory of Narrow Thinking",
+      "url": "https://lianchen.github.io/website/narrow_thinking.pdf",
+      "coauthors": "",
+      "status": "October 2021, Review of Economic Studies (Feature Article)",
+      "group": "published",
+      "badge": "",
+      "topics": [
+        "behavioral"
+      ],
+      "links": [
+        {
+          "label": "Online Appendix",
+          "url": "https://lianchen.github.io/website/narrow_appendix.pdf"
+        },
+        {
+          "label": "Short Slides",
+          "url": "https://lianchen.github.io/website/NT_quick_slides.pdf"
+        }
+      ],
+      "publication_type": "refereed"
+    },
+    {
+      "id": "anatomy-of-corporate-borrowing-constraints",
+      "title": "Anatomy of Corporate Borrowing Constraints",
+      "url": "https://lianchen.github.io/website/EBC_draft.pdf",
+      "coauthors": "Yueran Ma",
+      "status": "February 2021, Quarterly Journal of Economics",
+      "group": "published",
+      "badge": "",
+      "topics": [
+        "macro-finance"
+      ],
+      "links": [
+        {
+          "label": "Online Appendix",
+          "url": "https://lianchen.github.io/website/EBC_appendix.pdf"
+        }
+      ],
+      "publication_type": "refereed"
+    },
+    {
+      "id": "low-interest-rates-and-risk-taking-evidence-from-individual-investment-decisions",
+      "title": "Low Interest Rates and Risk Taking: Evidence from Individual Investment Decisions",
+      "url": "https://lianchen.github.io/website/low_rates_final.pdf",
+      "coauthors": "Yueran Ma and Carmen Wang",
+      "status": "June 2019, Review of Financial Studies (Lead Article)",
+      "group": "published",
+      "badge": "",
+      "topics": [
+        "macro-policy",
+        "behavioral",
+        "macro-finance"
+      ],
+      "links": [
+        {
+          "label": "Survey Appendix",
+          "url": "https://lianchen.github.io/website/low_rates_survey.pdf"
+        }
+      ],
+      "publication_type": "refereed"
+    },
+    {
+      "id": "forward-guidance-without-common-knowledge",
+      "title": "Forward Guidance without Common Knowledge",
+      "url": "https://lianchen.github.io/website/FG_manuscript.pdf",
+      "coauthors": "George-Marios Angeletos",
+      "status": "September 2018, American Economic Review",
+      "group": "published",
+      "badge": "",
+      "topics": [
+        "macro-policy",
+        "behavioral"
+      ],
+      "links": [
+        {
+          "label": "Online Appendix",
+          "url": "https://lianchen.github.io/website/FG_appendix.pdf"
+        }
+      ],
+      "publication_type": "refereed"
+    },
+    {
+      "id": "incomplete-information-in-macroeconomics-accommodating-frictions-in-coordination",
+      "title": "Incomplete Information in Macroeconomics: Accommodating Frictions in Coordination",
+      "url": "https://lianchen.github.io/website/Angeletos-Lian-HBchapter.pdf",
+      "coauthors": "George-Marios Angeletos",
+      "status": "October 2016, Handbook of Macroeconomics, Volume 2",
+      "group": "published",
+      "badge": "",
+      "topics": [
+        "behavioral"
+      ],
+      "links": [],
+      "publication_type": "survey-conference"
+    }
+  ],
+  "teaching": [
+    {
+      "links": [
+        {
+          "label": "Syllabus",
+          "url": "https://lianchen.github.io/website/Syllabus_236B.pdf"
+        }
+      ],
+      "term": "Spring 2026",
+      "course": "Econ 236B: Advanced Macroeconomics II"
+    },
+    {
+      "links": [],
+      "term": "Spring 2026",
+      "course": "Econ 138: Financial and Behavioral Economics"
+    },
+    {
+      "links": [
+        {
+          "label": "Syllabus",
+          "url": "Syllabus_bootcamp_2026.pdf"
+        }
+      ],
+      "term": "Spring 2026",
+      "course": "NBER Behavioral Macroeconomics Research Boot Camp",
+      "source_url": "https://www.nber.org/conferences/behavioral-macroeconomics-boot-camp-spring-2026"
+    },
+    {
+      "links": [],
+      "term": "Spring 2025",
+      "course": "Econ 236B: Advanced Macroeconomics II"
+    },
+    {
+      "links": [],
+      "term": "Spring 2025",
+      "course": "Econ 138: Financial and Behavioral Economics"
+    },
+    {
+      "links": [],
+      "term": "Spring 2024",
+      "course": "NBER Behavioral Macroeconomics Research Boot Camp"
+    },
+    {
+      "links": [],
+      "term": "Spring 2023",
+      "course": "Econ 236B: Advanced Macroeconomics II"
+    },
+    {
+      "links": [],
+      "term": "Spring 2023",
+      "course": "Econ 138: Financial and Behavioral Economics"
+    },
+    {
+      "links": [],
+      "term": "Spring 2022",
+      "course": "NBER Behavioral Macroeconomics Research Boot Camp"
+    },
+    {
+      "links": [],
+      "term": "Spring 2022",
+      "course": "Econ 138: Financial and Behavioral Economics"
+    },
+    {
+      "links": [
+        {
+          "label": "Syllabus",
+          "url": "https://lianchen.github.io/website/Syllabus_outside.pdf"
+        }
+      ],
+      "term": "Spring 2021",
+      "course": "Econ 236D: Behavioral Macroeconomics"
+    }
+  ]
+}
