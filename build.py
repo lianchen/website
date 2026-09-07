@@ -125,7 +125,7 @@ def render(data):
   <a class="skip-link" href="#main">Skip to main content</a>
   <header class="site-header">
     <div class="wrap header-inner">
-      <a class="wordmark" href="#top">Chen Lian</a>
+      <a class="wordmark" href="#top">Chen <span class="surname">Lian</span></a>
       <nav class="site-nav" aria-label="Main navigation">
         <a href="#about">About</a><a href="#research">Research</a><a href="#teaching">Teaching</a>{anchor(profile['cv_url'], 'CV')}
       </nav>
@@ -135,7 +135,7 @@ def render(data):
     <section class="profile" id="about" aria-labelledby="profile-title">
       <img class="portrait" src="{escape(profile['photo_path'])}" width="236" height="295" alt="Chen Lian" fetchpriority="high">
       <div>
-        <h1 id="profile-title">Chen Lian</h1>
+        <h1 id="profile-title">Chen <span class="surname">Lian</span></h1>
         <p class="affiliation">{escape(profile['role'])} · {escape(profile['institution'])}</p>
         <div class="bio">{bio}</div>
         <div class="profile-links" aria-label="Profile links">
@@ -163,7 +163,7 @@ def render(data):
     </section>
   </main>
   <footer class="site-footer"><div class="wrap footer-inner">
-    <p>Chen Lian · Department of Economics · UC Berkeley</p><a href="#top">Back to top</a>
+    <p>Chen <span class="surname">Lian</span> · Department of Economics · UC Berkeley</p><a href="#top">Back to top</a>
   </div></footer>
 </body>
 </html>

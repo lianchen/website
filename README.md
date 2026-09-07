@@ -10,6 +10,8 @@ Published papers also need `publication_type`: `refereed` for journal articles o
 
 Teaching records use `term`, `course`, and `links`. Records with the same course name appear together, with a combined semester line and year-labelled syllabus links. Keep a separate record for each semester taught.
 
+Teaching is hidden on initial page load and appears when the Teaching navigation link is selected (or when opening a direct `#teaching` link). Navigating to another section hides it again. This uses CSS and works without JavaScript.
+
 Run `python3 build.py` to regenerate `index.html` and verify that linked documents exist. Both the content data and generated page should be included when committing an update. The page contains all content without JavaScript; the small script adds topic filtering.
 
 Preview with `python3 -m http.server 8000 --bind 127.0.0.1`, then open `http://127.0.0.1:8000/`.
