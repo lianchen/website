@@ -265,10 +265,6 @@
       ],
       "links": [
         {
-          "label": "NBER version",
-          "url": "https://www.nber.org/papers/w29517"
-        },
-        {
           "label": "Slides",
           "url": "https://lianchen.github.io/website/slides_v1_dnt.pdf"
         }
