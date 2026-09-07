@@ -12,6 +12,7 @@
 - Match the CV's surname cue on the website: display Lian in small capitals in the name headings, retaining the text “Chen Lian” for copying and accessibility.
 - Keep the position, research fields, and MIT Ph.D. statement together in one biography paragraph. Let the biography use the full available width beside the photo without a separate width cap. Place the research-statement sentence alongside CV and Google Scholar in one naturally wrapping inline row.
 - Research navigation should follow Jonathon Hazell's site: a “Jump to” row linking to Working Papers, Under Revision, and Publications, followed by pill-shaped single-select topic filters. Filters apply across all three groups; both rows wrap on small screens.
+- On wider screens, place the Research heading and its section links on the same row with one shared divider underneath. Let the section links wrap beneath the heading when needed on smaller screens.
 - Combine Behavioral macro and Behavioral economics into one “Behavioral macro & economics” topic containing the union of their papers, without duplicates. Do not display paper-count summaries. Hide groups with no papers matching the selected topic, including their headings and “Jump to” links.
 - Under Publications, show “All,” “Refereed,” and “Survey & conference” pill buttons without an additional visible label only when the topic filter is All. The two handbook chapters and the NBER Macroeconomics Annual paper belong to Survey & conference; journal articles belong to Refereed. Selecting a specific topic hides the publication-type buttons and resets publication type to All, showing all publications matching that topic.
 - Use sentence case for filter labels, including words after an ampersand; preserve acronyms such as AI.
@@ -23,3 +24,4 @@
 - Do not show a footer, the repeated name/affiliation line, or a Back to top link.
 - The NBER Behavioral Macroeconomics Research Boot Camp includes Spring 2022, 2024, and 2026. Its displayed syllabus should be the supplied `Syllabus_bootcamp_2026.pdf`; keep older PDF files available at their existing paths.
 - Keep this a static GitHub Pages website. Generate the public HTML from the content data, with links and all papers readable without JavaScript; JavaScript enhances topic filtering.
+- Version CSS and JavaScript URLs with content hashes when generating the page to prevent cached files from breaking updates. Rebuild after changing either asset.

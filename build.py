@@ -3,6 +3,7 @@
 
 import argparse
 from collections import Counter
+from hashlib import sha256
 from html import escape
 import json
 from pathlib import Path
@@ -24,6 +25,11 @@ PUBLICATION_TYPES = (
 
 def anchor(url, label, extra=''):
     return f'<a href="{escape(url, quote=True)}"{extra}>{escape(label)}</a>'
+
+
+def asset_url(filename):
+    version = sha256((ROOT / filename).read_bytes()).hexdigest()[:12]
+    return f'{filename}?v={version}'
 
 
 def linked_text(paragraph):
@@ -118,8 +124,8 @@ def render(data):
   <link rel="canonical" href="https://lianchen.github.io/">
   <meta name="theme-color" content="#275d80">
   <link rel="icon" href="data:,">
-  <link rel="stylesheet" href="styles.css">
-  <script src="site.js" defer></script>
+  <link rel="stylesheet" href="{asset_url('styles.css')}">
+  <script src="{asset_url('site.js')}" defer></script>
 </head>
 <body id="top">
   <div class="view-anchor" id="research" aria-hidden="true"></div>
@@ -150,9 +156,11 @@ def render(data):
       </div>
     </section>
     <section class="research-only" id="research-papers" aria-labelledby="research-title">
-      <h2 class="section-heading" id="research-title">Research</h2>
-      <div class="research-tools">
+      <div class="research-heading">
+        <h2 class="section-heading" id="research-title">Research</h2>
         <nav class="jump-links" aria-label="Research sections"><strong>Jump to:</strong>{jump}</nav>
+      </div>
+      <div class="research-tools">
         <fieldset class="topic-filters" hidden>
           <legend class="sr-only">Filter by topic</legend>
           <div class="filter-buttons">{filters}</div>
