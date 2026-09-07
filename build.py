@@ -92,7 +92,7 @@ def teaching_html(offerings):
 def render(data):
     profile = data['profile']
     bio = '\n'.join(linked_paragraph(item) for item in profile['bio_paragraphs'])
-    jump = ''.join(f'<span class="jump-item">{anchor("#" + section_id, title)}</span>' for _, section_id, title in GROUPS)
+    jump = ''.join(f'<span class="jump-item">{anchor("#" + section_id, title)}</span>' for group, section_id, title in GROUPS if group != 'working')
     filters = '<button type="button" class="filter-button" data-filter="all" aria-pressed="true">All</button>'
     filters += ''.join(
         f'<button type="button" class="filter-button" data-filter="{escape(topic["id"])}" aria-pressed="false" title="{escape(topic["source_label"], quote=True)}">{escape(topic["label"])}</button>'
@@ -109,6 +109,8 @@ def render(data):
             )
             publication_filters = f'<div class="publication-filters filter-buttons" role="group" aria-label="Publication type" hidden>{type_buttons}</div>'
         heading = f'<h3 class="group-title" id="{section_id}-title">{title}</h3>'
+        if group == 'working':
+            heading = f'<div class="working-heading">{heading}<nav class="jump-links" aria-label="Research sections"><strong>Jump to:</strong>{jump}</nav></div>'
         if group == 'published':
             heading = f'<div class="publication-heading">{heading}{publication_filters}</div>'
         sections.append(f'''<section class="paper-group" id="{section_id}" aria-labelledby="{section_id}-title">
@@ -165,9 +167,6 @@ def render(data):
           <div class="filter-buttons">{filters}</div>
           <p class="sr-only" id="filter-status" role="status" aria-live="polite" aria-atomic="true"></p>
         </fieldset>
-      </div>
-      <div class="research-tools">
-        <nav class="jump-links" aria-label="Research sections"><strong>Jump to:</strong>{jump}</nav>
       </div>
       {''.join(sections)}
     </section>

@@ -46,9 +46,8 @@ h1 { font-size: 2.6rem; font-weight: normal; line-height: 1.15; letter-spacing: 
 .contact a { overflow-wrap: anywhere; }
 .contact span { display: inline-block; margin-right: 1.3rem; }
 .section-heading { font-weight: normal; font-size: 1.9rem; line-height: 1.3; margin: 0 0 1.15rem; padding-bottom: .55rem; border-bottom: 2px solid var(--blue); }
-.research-heading { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-start; gap: 1rem 2rem; margin-bottom: .65rem; padding-bottom: .7rem; border-bottom: 2px solid var(--blue); }
+.research-heading { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-start; gap: 1rem 2rem; margin-bottom: 1.2rem; padding-bottom: .7rem; border-bottom: 2px solid var(--blue); }
 .research-heading .section-heading { margin: 0; padding: 0; border: 0; }
-.research-tools { margin-bottom: 1.35rem; }
 .jump-links { display: flex; flex-wrap: wrap; align-items: center; gap: .1rem; margin: 0; font-size: 1rem; }
 .jump-links strong { margin-right: .3rem; }
 .jump-links a { display: inline-flex; align-items: center; min-height: 44px; text-decoration: none; }
@@ -61,8 +60,8 @@ h1 { font-size: 2.6rem; font-weight: normal; line-height: 1.15; letter-spacing: 
 .filter-button:hover:not(:disabled) { border-color: var(--blue); color: var(--blue); background: var(--soft); }
 .filter-button:disabled { opacity: .5; cursor: default; }
 .filter-button[aria-pressed='true'] { background: var(--blue); border-color: var(--blue); color: #fff; box-shadow: 0 0 0 3px #fff, 0 0 0 5px var(--blue); }
-.publication-heading { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-start; gap: .75rem 1.5rem; margin-bottom: 1.2rem; }
-.publication-heading .group-title { margin: 0; }
+.working-heading, .publication-heading { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-start; gap: .75rem 1.5rem; margin-bottom: 1.2rem; }
+.working-heading .group-title, .publication-heading .group-title { margin: 0; }
 .publication-filters { margin: 0; }
 .paper-group { margin-bottom: 2.5rem; scroll-margin-top: 1.5rem; }
 .group-title { font-size: 1.45rem; font-weight: normal; line-height: 1.35; margin-bottom: 1.2rem; }
@@ -112,7 +111,7 @@ h1 { font-size: 2.6rem; font-weight: normal; line-height: 1.15; letter-spacing: 
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 @media print {
-  .site-header, .skip-link, .jump-links, .topic-filters, .research-tools, .publication-filters { display: none; }
+  .site-header, .skip-link, .jump-links, .topic-filters, .publication-filters { display: none; }
   .wrap { width: 100%; }
   .profile { padding-top: 0; }
   .paper-group[hidden], .paper[hidden] { display: block !important; }

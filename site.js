@@ -17,6 +17,7 @@
   const papers = [...document.querySelectorAll('.paper')];
   const groups = [...document.querySelectorAll('.paper-group')];
   const jumpLinks = [...document.querySelectorAll('.jump-item')];
+  const jumpNav = document.querySelector('.jump-links');
   const status = document.getElementById('filter-status');
   if (!filterPanel || !status || !buttons.length) return;
 
@@ -52,6 +53,7 @@
       const target = document.getElementById(item.querySelector('a').hash.slice(1));
       item.hidden = target.hidden;
     });
+    if (jumpNav) jumpNav.hidden = jumpLinks.every(item => item.hidden);
     const topicLabel = buttons.find(button => button.dataset.filter === selectedTopic).textContent.trim();
     const typeLabel = publicationButtons.find(button => button.dataset.publicationFilter === selectedPublicationType)?.textContent.trim() || 'All';
     status.textContent = selectedTopic === 'all' && selectedPublicationType === 'all'
