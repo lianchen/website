@@ -206,7 +206,7 @@ def main():
     args = parser.parse_args()
     data = json.loads((ROOT / 'content.json').read_text())
     validate(data)
-    (ROOT / 'index.html').write_text(render(data))
+    (ROOT / 'index.html').write_text('\n'.join(line.rstrip() for line in render(data).splitlines()) + '\n')
     if args.output:
         destination = args.output.resolve()
         destination.mkdir(parents=True, exist_ok=True)
