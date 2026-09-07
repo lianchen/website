@@ -152,7 +152,7 @@ def render(data):
         <div class="bio">{bio}</div>
         <div class="profile-links" aria-label="Profile links">
           {anchor(profile['cv_url'], 'CV')}{anchor(profile['scholar_url'], 'Google Scholar')}
-          <span>Please see my {anchor(profile['research_statement_url'], 'research statement')} ({escape(profile['research_statement_date'])}) for a summary.</span>
+          <span>{anchor(profile['research_statement_url'], 'Research statement')} ({escape(profile['research_statement_date'])})</span>
         </div>
         <p class="contact"><span>{anchor('mailto:' + profile['email'], profile['email'])}</span><span>{escape(profile['office'])}</span></p>
       </div>
