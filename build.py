@@ -166,9 +166,6 @@ def render(data):
       <ul class="teaching-list">{teaching}</ul>
     </section>
   </main>
-  <footer class="site-footer"><div class="wrap footer-inner">
-    <p>Chen <span class="surname">Lian</span> · Department of Economics · UC Berkeley</p><a class="research-only" href="#research">Back to top</a><a class="teaching-only" href="#teaching">Back to top</a>
-  </div></footer>
 </body>
 </html>
 '''
