@@ -182,10 +182,6 @@
         {
           "label": "Supplementary Appendix",
           "url": "https://lianchen.github.io/website/appendix_conflict.pdf"
-        },
-        {
-          "label": "Slides",
-          "url": "https://lianchen.github.io/website/slides_conflict_main.pdf"
         }
       ],
       "publication_type": "refereed"
@@ -202,12 +198,7 @@
         "behavioral",
         "macro-finance"
       ],
-      "links": [
-        {
-          "label": "Slides",
-          "url": "https://lianchen.github.io/website/slides_stress.pdf"
-        }
-      ],
+      "links": [],
       "publication_type": "refereed"
     },
     {
@@ -221,12 +212,7 @@
       "topics": [
         "macro-finance"
       ],
-      "links": [
-        {
-          "label": "Slides",
-          "url": "https://lianchen.github.io/website/macroannual_slides.pdf"
-        }
-      ],
+      "links": [],
       "publication_type": "survey-conference"
     },
     {
@@ -241,10 +227,6 @@
         "macro-policy"
       ],
       "links": [
-        {
-          "label": "Slides",
-          "url": "https://lianchen.github.io/website/deficit_finance_slides.pdf"
-        },
         {
           "label": "Additional Materials",
           "url": "https://lianchen.github.io/website/deficit_finance_supplement.pdf"
@@ -263,12 +245,7 @@
       "topics": [
         "behavioral"
       ],
-      "links": [
-        {
-          "label": "Slides",
-          "url": "https://lianchen.github.io/website/slides_v1_dnt.pdf"
-        }
-      ],
+      "links": [],
       "publication_type": "refereed"
     },
     {
