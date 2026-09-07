@@ -108,9 +108,11 @@ def render(data):
                 for key, label in PUBLICATION_TYPES
             )
             publication_filters = f'<div class="publication-filters filter-buttons" role="group" aria-label="Publication type" hidden>{type_buttons}</div>'
+        heading = f'<h3 class="group-title" id="{section_id}-title">{title}</h3>'
+        if group == 'published':
+            heading = f'<div class="publication-heading">{heading}{publication_filters}</div>'
         sections.append(f'''<section class="paper-group" id="{section_id}" aria-labelledby="{section_id}-title">
-  <h3 class="group-title" id="{section_id}-title">{title}</h3>
-  {publication_filters}
+  {heading}
   <ul class="papers">{papers}</ul>
 </section>''')
     teaching = teaching_html(data['teaching'])
@@ -158,14 +160,14 @@ def render(data):
     <section class="research-only" id="research-papers" aria-labelledby="research-title">
       <div class="research-heading">
         <h2 class="section-heading" id="research-title">Research</h2>
-        <nav class="jump-links" aria-label="Research sections"><strong>Jump to:</strong>{jump}</nav>
-      </div>
-      <div class="research-tools">
         <fieldset class="topic-filters" hidden>
           <legend class="sr-only">Filter by topic</legend>
           <div class="filter-buttons">{filters}</div>
           <p class="sr-only" id="filter-status" role="status" aria-live="polite" aria-atomic="true"></p>
         </fieldset>
+      </div>
+      <div class="research-tools">
+        <nav class="jump-links" aria-label="Research sections"><strong>Jump to:</strong>{jump}</nav>
       </div>
       {''.join(sections)}
     </section>
