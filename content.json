@@ -76,6 +76,28 @@
       "links": []
     },
     {
+      "id": "the-macroeconomic-effect-of-ai-sizing-the-software-engineering-channel",
+      "title": "The Macroeconomic Effect of AI: Sizing the Software Engineering Channel",
+      "url": "https://lianchen.github.io/website/AI_Software_Main.pdf",
+      "coauthors": "Alex Blumenfeld, Jonathon Hazell, and Andreas Schaab",
+      "status": "",
+      "group": "working",
+      "badge": "",
+      "topics": [
+        "ml-ai"
+      ],
+      "links": [
+        {
+          "label": "Supplementary Appendix",
+          "url": "https://lianchen.github.io/website/AI_Software_Supplement.pdf"
+        },
+        {
+          "label": "Additional Materials",
+          "url": "https://lianchen.github.io/website/AI_Software_Additional_Materials.pdf"
+        }
+      ]
+    },
+    {
       "id": "monetary-fiscal-interactions-a-reappraisal",
       "title": "Monetary-Fiscal Interactions: A Reappraisal",
       "url": "https://lianchen.github.io/website/ftpl_game.pdf",
@@ -106,19 +128,6 @@
       "title": "Forecasting Inflation with Microdata: An Adaptive Machine Learning Approach",
       "url": "https://lianchen.github.io/website/Inflation_Forecasting.pdf",
       "coauthors": "Catherine Chen, Chen Gao, Jonathon Hazell, and Lihua Lei",
-      "status": "",
-      "group": "working",
-      "badge": "Preliminary",
-      "topics": [
-        "ml-ai"
-      ],
-      "links": []
-    },
-    {
-      "id": "the-macroeconomic-effect-of-ai-sizing-the-software-engineering-channel",
-      "title": "The Macroeconomic Effect of AI: Sizing the Software Engineering Channel",
-      "url": "https://lianchen.github.io/website/AI_Software_Draft.pdf",
-      "coauthors": "Alex Blumenfeld, Jonathon Hazell, and Andreas Schaab",
       "status": "",
       "group": "working",
       "badge": "Preliminary",
