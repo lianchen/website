@@ -141,7 +141,8 @@
       "title": "Fiscal Inaction as Monetary Support",
       "url": "https://lianchen.github.io/website/mpfp.pdf",
       "coauthors": "George-Marios Angeletos and Christian Wolf",
-      "status": "R&R at Econometrica",
+      "status": "R&R at",
+      "venue": "Econometrica",
       "group": "revision",
       "badge": "",
       "topics": [
@@ -154,7 +155,8 @@
       "title": "Borrowing Constraints, Markups, and Misallocation",
       "url": "https://lianchen.github.io/website/draft_markup.pdf",
       "coauthors": "Huiyu Li, Yueran Ma and Emily Martell",
-      "status": "R&R at Review of Economic Studies",
+      "status": "R&R at",
+      "venue": "Review of Economic Studies",
       "group": "revision",
       "badge": "",
       "topics": [
@@ -167,7 +169,8 @@
       "title": "Beliefs about the Economy are Excessively Sensitive to Household-level Shocks: Evidence from Linked Survey and Administrative Data",
       "url": "https://lianchen.github.io/website/paper_DK_overreaction.pdf",
       "coauthors": "Dmitry Taubinsky, Luigi Butera and Matteo Saccarola",
-      "status": "Forthcoming, Quarterly Journal of Economics",
+      "status": "Forthcoming,",
+      "venue": "Quarterly Journal of Economics",
       "group": "published",
       "badge": "FINAL",
       "topics": [
@@ -181,7 +184,8 @@
       "title": "Why do Workers Dislike Inflation? Wage Erosion and Conflict Costs",
       "url": "https://lianchen.github.io/website/draft_conflicts.pdf",
       "coauthors": "Joao Guerreiro, Jonathon Hazell and Christina Patterson",
-      "status": "Forthcoming, Econometrica",
+      "status": "Forthcoming,",
+      "venue": "Econometrica",
       "group": "published",
       "badge": "FINAL",
       "topics": [
@@ -200,7 +204,8 @@
       "title": "The Economics of Financial Stress",
       "url": "https://lianchen.github.io/website/draft_stress.pdf",
       "coauthors": "Dmitriy Sergeyev and Yuriy Gorodnichenko",
-      "status": "October 2025, Review of Economic Studies",
+      "status": "October 2025,",
+      "venue": "Review of Economic Studies",
       "group": "published",
       "badge": "",
       "topics": [
@@ -215,7 +220,9 @@
       "title": "Bankruptcy Resolution and Credit Cycles",
       "url": "https://lianchen.github.io/website/MacroAnnual.pdf",
       "coauthors": "Martin Kornejew, Yueran Ma, Pablo Ottonello, and Diego Perez",
-      "status": "NBER Macroeconomics Annual 2024",
+      "status": "",
+      "venue": "NBER Macroeconomics Annual",
+      "venue_note": "2024",
       "group": "published",
       "badge": "NEW",
       "topics": [
@@ -229,7 +236,8 @@
       "title": "Can Deficits Finance Themselves?",
       "url": "https://lianchen.github.io/website/deficit_finance.pdf",
       "coauthors": "George-Marios Angeletos and Christian Wolf",
-      "status": "September 2024, Econometrica",
+      "status": "September 2024,",
+      "venue": "Econometrica",
       "group": "published",
       "badge": "",
       "topics": [
@@ -248,7 +256,8 @@
       "title": "Mistakes in Future Consumption, High MPCs Now",
       "url": "https://lianchen.github.io/website/draft_dnt.pdf",
       "coauthors": "",
-      "status": "December 2023, American Economic Review: Insights",
+      "status": "December 2023,",
+      "venue": "American Economic Review: Insights",
       "group": "published",
       "badge": "",
       "topics": [
@@ -262,7 +271,8 @@
       "title": "Determinacy without the Taylor Principle",
       "url": "https://lianchen.github.io/website/taylor_draft.pdf",
       "coauthors": "George-Marios Angeletos",
-      "status": "August 2023, Journal of Political Economy",
+      "status": "August 2023,",
+      "venue": "Journal of Political Economy",
       "group": "published",
       "badge": "",
       "topics": [
@@ -282,7 +292,8 @@
       "title": "Dampening General Equilibrium: Incomplete Information and Bounded Rationality",
       "url": "https://lianchen.github.io/website/handbook-GE-NBER.pdf",
       "coauthors": "George-Marios Angeletos",
-      "status": "January 2023, Handbook of Economic Expectations",
+      "status": "January 2023,",
+      "venue": "Handbook of Economic Expectations",
       "group": "published",
       "badge": "SURVEY",
       "topics": [
@@ -307,7 +318,8 @@
       "title": "Confidence and the Propagation of Demand Shocks",
       "url": "https://lianchen.github.io/website/AD_final.pdf",
       "coauthors": "George-Marios Angeletos",
-      "status": "May 2022, Review of Economic Studies",
+      "status": "May 2022,",
+      "venue": "Review of Economic Studies",
       "group": "published",
       "badge": "",
       "topics": [
@@ -331,7 +343,9 @@
       "title": "A Theory of Narrow Thinking",
       "url": "https://lianchen.github.io/website/narrow_thinking.pdf",
       "coauthors": "",
-      "status": "October 2021, Review of Economic Studies (Feature Article)",
+      "status": "October 2021,",
+      "venue": "Review of Economic Studies",
+      "venue_note": "(Feature Article)",
       "group": "published",
       "badge": "",
       "topics": [
@@ -354,7 +368,8 @@
       "title": "Anatomy of Corporate Borrowing Constraints",
       "url": "https://lianchen.github.io/website/EBC_draft.pdf",
       "coauthors": "Yueran Ma",
-      "status": "February 2021, Quarterly Journal of Economics",
+      "status": "February 2021,",
+      "venue": "Quarterly Journal of Economics",
       "group": "published",
       "badge": "",
       "topics": [
@@ -373,7 +388,9 @@
       "title": "Low Interest Rates and Risk Taking: Evidence from Individual Investment Decisions",
       "url": "https://lianchen.github.io/website/low_rates_final.pdf",
       "coauthors": "Yueran Ma and Carmen Wang",
-      "status": "June 2019, Review of Financial Studies (Lead Article)",
+      "status": "June 2019,",
+      "venue": "Review of Financial Studies",
+      "venue_note": "(Lead Article)",
       "group": "published",
       "badge": "",
       "topics": [
@@ -394,7 +411,8 @@
       "title": "Forward Guidance without Common Knowledge",
       "url": "https://lianchen.github.io/website/FG_manuscript.pdf",
       "coauthors": "George-Marios Angeletos",
-      "status": "September 2018, American Economic Review",
+      "status": "September 2018,",
+      "venue": "American Economic Review",
       "group": "published",
       "badge": "",
       "topics": [
@@ -414,7 +432,8 @@
       "title": "Incomplete Information in Macroeconomics: Accommodating Frictions in Coordination",
       "url": "https://lianchen.github.io/website/Angeletos-Lian-HBchapter.pdf",
       "coauthors": "George-Marios Angeletos",
-      "status": "October 2016, Handbook of Macroeconomics, Volume 2",
+      "status": "October 2016,",
+      "venue": "Handbook of Macroeconomics, Volume 2",
       "group": "published",
       "badge": "",
       "topics": [

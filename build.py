@@ -52,7 +52,8 @@ def paper_html(paper):
     badge = f'<span class="badge">{escape(paper["badge"])}</span>' if paper.get('badge') else ''
     coauthors = f' <span class="coauthors">(with {escape(paper["coauthors"])})</span>' if paper['coauthors'] else ''
     note = f'({linked_text(paper["note"])})' if paper.get('note') else ''
-    details = ' '.join(part for part in (escape(paper['status']), note) if part)
+    venue = f'<cite>{escape(paper["venue"])}</cite>' if paper.get('venue') else ''
+    details = ' '.join(part for part in (escape(paper['status']), venue, escape(paper.get('venue_note', '')), note) if part)
     status = f'<p class="status">{details}</p>' if details else ''
     links = ' '.join('[' + anchor(link['url'], link['label']) + ']' for link in paper['links'])
     links = f' <span class="paper-links" aria-label="Additional materials">{links}</span>' if links else ''
@@ -199,6 +200,8 @@ def validate(data):
         assert set(paper['topics']) <= known_topics, f'Unknown topic in {paper["title"]}'
         if paper['group'] == 'published':
             assert paper.get('publication_type') in {'refereed', 'survey-conference'}, f'Missing or invalid publication type: {paper["title"]}'
+            assert paper.get('venue'), f'Published paper needs a venue: {paper["title"]}'
+        assert not paper.get('venue_note') or paper.get('venue'), f'venue_note without venue: {paper["title"]}'
     for url in document_urls(data):
         parsed = urlparse(url)
         if parsed.netloc == 'lianchen.github.io' and parsed.path.startswith('/website/'):

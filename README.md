@@ -6,6 +6,8 @@ A responsive, static homepage for `https://lianchen.github.io/`, with a compact 
 
 Edit `content.json` for papers, publication status, topic membership, teaching, and biography. Papers appear in the order they are listed within each group. A paper may have multiple topic IDs. Biography hyperlinks and optional paper-note hyperlinks use character offsets; update these if editing the corresponding text.
 
+A paper's status line is assembled from `status` (the date or wording such as `Forthcoming,` or `R&R at`, including its punctuation), `venue` (the journal or book name, shown in italics), and an optional `venue_note` such as `(Feature Article)` or a volume year that follows the venue upright. Published papers must have a `venue`; working papers leave `status` empty.
+
 Published papers also need `publication_type`: `refereed` for journal articles or `survey-conference` for handbook chapters and conference contributions. The publication-type buttons appear only when the topic filter is All. Selecting any specific topic hides those buttons and resets publication type to All, so all publications matching that topic are shown.
 
 Teaching records use `term`, `course`, and `links`. Records with the same course name appear together, with a combined semester line and year-labelled syllabus links. Keep a separate record for each semester taught.
