@@ -8,7 +8,7 @@
 - Preserve existing public PDF paths under `https://lianchen.github.io/website/`; these are already linked from the current website.
 - This repository currently publishes at `https://lianchen.github.io/website/`. The requested root homepage requires the `lianchen.github.io` repository. Do not rename or move this PDF repository as part of the homepage migration without a specific user request.
 - The root homepage repository is `lianchen/lianchen.github.io`, published by GitHub Pages from `main` at `/`. Maintain the editable source in this `website` repository, then export and push the public assets to the homepage repository when publishing updates.
-- Use a compact Guerreiro-inspired layout: top navigation, current photo and short biography, white background, dark serif text, and restrained blue accents.
+- Use a compact Guerreiro-inspired layout: top navigation, current photo and short biography, off-white background, dark serif text, and restrained blue accents.
 - Match the CV's surname cue on the website: display Lian in small capitals in the name headings, retaining the text “Chen Lian” for copying and accessibility.
 - Keep the position, research fields, and MIT Ph.D. statement together in one biography paragraph. Let the biography use the full available width beside the photo without a separate width cap. Place the research-statement sentence alongside CV and Google Scholar in one naturally wrapping inline row.
 - Research navigation should follow Jonathon Hazell's site: pill-shaped single-select topic filters and “Jump to” links to Under Revision and Publications alongside the Working Papers heading. Topic filters apply across all three groups. Hide the entire jump navigation when neither destination has matching papers.
