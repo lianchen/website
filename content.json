@@ -69,7 +69,7 @@
       "status": "R&R at",
       "venue": "American Economic Review",
       "group": "revision",
-      "badge": "NEW",
+      "badge": "",
       "topics": [
         "macro-policy",
         "macro-finance"
@@ -225,7 +225,7 @@
       "venue": "NBER Macroeconomics Annual",
       "venue_note": "2024",
       "group": "published",
-      "badge": "NEW",
+      "badge": "",
       "topics": [
         "macro-finance"
       ],
@@ -296,7 +296,7 @@
       "status": "January 2023,",
       "venue": "Handbook of Economic Expectations",
       "group": "published",
-      "badge": "SURVEY",
+      "badge": "",
       "topics": [
         "behavioral"
       ],
