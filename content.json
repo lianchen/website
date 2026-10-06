@@ -138,6 +138,19 @@
       "links": []
     },
     {
+      "id": "householdbench",
+      "title": "HouseholdBench: Evaluating Large Language Models as Predictors of Household Economic Behavior",
+      "url": "https://lianchen.github.io/website/HouseholdBench.pdf",
+      "coauthors": "Jin Huang, Diego Ferreras Garrucho, Yutong Xie, Walter M. Yuan, Qiaozhu Mei, and Jonathon Hazell",
+      "status": "",
+      "group": "working",
+      "badge": "NEW",
+      "topics": [
+        "ml-ai"
+      ],
+      "links": []
+    },
+    {
       "id": "fiscal-inaction-as-monetary-support",
       "title": "Fiscal Inaction as Monetary Support",
       "url": "https://lianchen.github.io/website/mpfp.pdf",
