@@ -148,7 +148,12 @@
       "topics": [
         "ml-ai"
       ],
-      "links": []
+      "links": [
+        {
+          "label": "Project website",
+          "url": "https://jn-huang.github.io/householdbench/"
+        }
+      ]
     },
     {
       "id": "fiscal-inaction-as-monetary-support",
