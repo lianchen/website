@@ -112,19 +112,6 @@
       "links": []
     },
     {
-      "id": "deficits-and-inflation-hank-meets-ftpl",
-      "title": "Deficits and Inflation: HANK meets FTPL",
-      "url": "https://lianchen.github.io/website/deficit_inflation.pdf",
-      "coauthors": "George-Marios Angeletos and Christian Wolf",
-      "status": "",
-      "group": "working",
-      "badge": "UPDATE",
-      "topics": [
-        "macro-policy"
-      ],
-      "links": []
-    },
-    {
       "id": "forecasting-inflation-with-microdata-an-adaptive-machine-learning-approach",
       "title": "Forecasting Inflation with Microdata: An Adaptive Machine Learning Approach",
       "url": "https://lianchen.github.io/website/Inflation_Forecasting.pdf",
@@ -168,6 +155,20 @@
         "macro-policy"
       ],
       "links": []
+    },
+    {
+      "id": "deficits-and-inflation-hank-meets-ftpl",
+      "title": "Deficits and Inflation: HANK meets FTPL",
+      "url": "https://lianchen.github.io/website/deficit_inflation.pdf",
+      "coauthors": "George-Marios Angeletos and Christian Wolf",
+      "status": "R&R at",
+      "group": "revision",
+      "badge": "UPDATE",
+      "topics": [
+        "macro-policy"
+      ],
+      "links": [],
+      "venue": "Review of Economic Studies"
     },
     {
       "id": "borrowing-constraints-markups-and-misallocation",
